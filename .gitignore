@@ -1,0 +1,44 @@
+# ---- Build artifacts ----
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ---- Qt Creator user files (machine-specific) ----
+*.user
+*.user.*
+CMakeLists.txt.user
+
+# ---- VS Code ----
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Ninja ----
+.ninja_deps
+.ninja_log
+
+# ---- Qt generated files ----
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+
+# ---- App bundles (if you package macOS apps) ----
+*.app/
+
+# ---- Logs ----
+*.log
+
+# ---- Backup files ----
+*.swp
+*.swo
+*~
